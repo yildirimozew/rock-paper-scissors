@@ -1,0 +1,133 @@
+.bar{appearance:none;
+    height:10vh;
+    width:30vw;
+    margin-top:0.5vh;
+ }
+
+.health-ally{
+    margin-left:1vw;
+    float:left;
+    border:10px inset #A7E074;
+}
+.health-enemy{
+    margin-right:1vw;
+    border:10px inset #690c0c;
+    float:right;
+}
+
+body{background-image:url("evil-king.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;}
+.king{
+    width:98vw;
+    height:100vh;
+    float:left;
+}
+
+h1{margin:auto;
+    width:10vw;
+    color:white;}
+
+h2.ally{margin:auto;
+    color:yellow;
+    position:relative;
+    right:9vw;
+    width:10vw;}
+
+h2.enemy{margin:auto;
+    position:relative;
+    left:27vw;
+    bottom:10vh}
+
+.number{font-size:40px;
+margin:auto;}
+
+.health-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.top-text{
+    font-size:30px;
+    margin:0px;
+}
+.ally-text{
+    color:#96CC39;
+}
+.ally-text::after{
+    content:"100";
+    position:absolute;
+    font-weight:bolder;
+    top:3.5vh;
+    left:36vw;
+    font-size:60px;
+    margin:0px;
+}
+.enemy-text{
+    color:#af0303;
+}
+.enemy-text::after{
+    content:"100";
+    position:absolute;
+    font-weight:bolder;
+    top:3.5vh;
+    left:62vw;
+    font-size:60px;
+    margin:0px;
+}
+
+.middle-text{
+    font-size:25px;
+    margin:5px;
+    background: -webkit-linear-gradient(black, red);
+    font-weight:bold;
+    background-clip:border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.game-container{
+    display:flex;
+    justify-content:center;
+    margin-top:15vh;
+    color:white;
+}
+.choice{
+    margin:3vw;
+    margin-bottom:0px;
+    height:30vh;
+    width:30vh;
+    border: #2a0000 solid 10px;
+    background-color: rgba(128,128,128,0.7);}
+
+.choice-text{
+    font-size:30px;
+    text-align:center;
+    color: #222222;
+}
+
+.win-lose{
+    color: #d0a305;
+    font-size:50px;
+    text-align:center;
+    margin-top:25vh;
+    
+}
+img{
+    height:18vh;
+    position:relative;
+    left:3vw;
+}
+progress::-moz-progress-bar { background: blue; }
+progress.health-ally {
+    -webkit-appearance: none;
+    appearance: none;
+ 
+ }
+ progress.health-ally::-webkit-progress-value{
+     background:green;
+ }
+ progress.health-enemy::-webkit-progress-value{
+    background:red;
+}
+progress { color: blue; }

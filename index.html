@@ -2,10 +2,33 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>empty-page</title>
+    <title>FIGHT FOR YOUR LIFE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="crown.png">
 </head>
 <body>
+    <div class="health-container">
+    <progress class="health-ally bar" id="health-ally" value="100" max="100"></progress>
+    <p class="ally-text top-text">Your Health:</p>
+    <p class="middle-text">FIGHT FOR YOUR LIFE</p>
+    <p class="enemy-text top-text">Enemy Health:</p>
+    <progress class="health-enemy bar" id="health-enemy" value="100" max="100"></progress>
+    </div>
+    <div class="win-lose" id="win-lose">Select a weapon.</div>
+    <div class="game-container">
+        <div class="choice">
+            <p class="choice-text">Axe</p>
+            <img src="battle-axe_39374.png" alt="Battle Axe icon">
+        </div>
+        <div class="choice">
+            <p class="choice-text">Hammer</p>
+            <img src="battle-hammer.png" alt="Battle hammer icon">
+        </div>
+        <div class="choice">
+            <p class="choice-text">Sword</p>
+            <img src="Military-Sword-icon.png" alt="Sword icon">
+        </div>
+    </div>
     <script src="rock-paper-scissors.js"></script>
 </body>
 </html>
-
