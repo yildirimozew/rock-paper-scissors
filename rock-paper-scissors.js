@@ -17,7 +17,8 @@ function roundResult(result) {
     if (result === "win") {winLose.textContent = "You strike!";
     healthEnemy.value -= 20;}
     else if (result === "lose") {winLose.textContent = "You take a hit!";
-    healthAlly.value -= 20;}
+    healthAlly.value -= 20;
+    }
     else {winLose.textContent = "Your weapons clash in midair."}
 
     if (healthAlly.value === 0) {gameResult("lose")}

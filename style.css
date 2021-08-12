@@ -54,26 +54,9 @@ margin:auto;}
 .ally-text{
     color:#96CC39;
 }
-.ally-text::after{
-    content:"100";
-    position:absolute;
-    font-weight:bolder;
-    top:3.5vh;
-    left:36vw;
-    font-size:60px;
-    margin:0px;
-}
+
 .enemy-text{
     color:#af0303;
-}
-.enemy-text::after{
-    content:"100";
-    position:absolute;
-    font-weight:bolder;
-    top:3.5vh;
-    left:62vw;
-    font-size:60px;
-    margin:0px;
 }
 
 .middle-text{
